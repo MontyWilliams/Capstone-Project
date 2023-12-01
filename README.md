@@ -1,3 +1,43 @@
-### Deploying contract
-  Deploying the contract using hardHat is simple. first we have the hardHat configuration file which has some simple logic to print the accounts and contains the configuration for the solidity version and the network we are using. In our case polygon.
-  We use a dotenv file which is included in the git ignore. This file contains 2 important variables that are used to connect the applicaiton to the blockchain. The first is the api url which we use to access aclchemys node communication service. The second is the private key which holds the funds that we use to pay the gas fees for deploying. 
+# Loyalty-TokX - A Decentralized Rewards Platform
+
+## Introduction
+A blockchain-based platform designed to revolutionize loyalty programs by leveraging the power of decentralization. Our platform enables businesses to create innovative campaigns and users to earn and redeem digital rewards.
+
+## Features
+- Wallet Integration
+- Token-based Reward System
+- Campaign Creation and Management
+- User Participation Tracking
+- NFT Integration
+- Analytics Dashboard
+
+## Technologies Used
+- Ethereum Blockchain
+- Hardhat & Ethers.js
+- React & Node.js
+- IPFS
+
+## Setup and Installation
+TODO: Provide instructions on how to setup and run the project locally.
+
+## Usage
+TODO: Explain how to use the platform or how to interact with it.
+
+## Future Features
+TODO: Guidelines for contributing to the project.
+
+## License
+UNLICENSED
+
+## Authors and Acknowledgment
+- [Monty Williams](www.montywilliams.tech)
+- [Jeremy Stevenson](https://blog.oktechguru.com/)
+- [B Bwashi](darbumas.github.io)
+
+## FAQs
+TODO: Answer some common questions about the project.
+
+## Contact
+- Monty Williams - [GitHub](github.com/MontyWilliams)
+- Jeremy Stevenson - [GitHub](github.com/JStevenson1337)
+- B Bwashi - [GitHub](github.com/darbumas)

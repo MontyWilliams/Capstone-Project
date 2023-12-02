@@ -1,16 +1,17 @@
 const hre = require("hardhat");
 const ContractJson = require("../artifacts/contracts/Greeter.sol/Greeter.json")
 
+// This is tha binary interface which allows the front end to used all the functions within the contract
 const abi = ContractJson.abi;
 
 async function main() {
 
-  const Greeter = await hre.ethers.getContractFactory("Greeter");
-  const greeter = await Greeter.deploy("Hello, Hardhat!");
-
-  await greeter.deployed();
-
-  console.log("Greeter deployed to:", greeter.address);
+  const alchemy = new hre.ethers.providers.AlchemyProvider(
+    'maticmum',
+    process.env.ALCHEMY_API_KEY
+  );
+  
+  const userWallet = new hre.ethers.Wallet(process.env.PRIVATE_KEY, alchemy);
 }
 
 main()

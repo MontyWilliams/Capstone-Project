@@ -1,4 +1,5 @@
 const hre = require("hardhat");
+const ContractJson = require("../artifacts/contracts/Greeter.sol/Greeter.json")
 
 async function main() {
 

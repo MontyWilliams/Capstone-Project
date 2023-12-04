@@ -47,12 +47,15 @@
     "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",
     "@types/mocha": "^10.0.6",
+    "autoprefixer": "^10.4.16",
     "chai": "^4.3.10",
     "ethereum-waffle": "^4.0.10",
     "ethers": "^5.7.2",
     "hardhat": "^2.19.1",
     "hardhat-gas-reporter": "^1.0.9",
+    "postcss": "^8.4.32",
     "solidity-coverage": "^0.8.5",
+    "tailwindcss": "^3.3.6",
     "ts-node": "^10.9.1"
   }
 }

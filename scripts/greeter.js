@@ -6,7 +6,7 @@ const abi = ContractJson.abi;
 
 async function main() {
 
-  // use ehers to get the provider that will act as a bridge between our application and the contract which exists on the blockchain
+  // use eThers to get the provider that will act as a bridge between our application and the contract which exists on the blockchain. IN the ethers documentation ther is a function for alchemy providers that specifies 'maticmum'
   const alchemy = new hre.ethers.providers.AlchemyProvider(
     'maticmum',
     process.env.ALCHEMY_API_KEY

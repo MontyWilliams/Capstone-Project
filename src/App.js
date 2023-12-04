@@ -14,6 +14,13 @@ function App() {
       const provider = ethers.providers.Web3Provider(window.ethereum)
       // this creates an instance of the contract, it needs the address, abi, and provider
       const contract = new ethers.Contract(greeterAddress, Greeter.abi, provider)
+      try {
+        const data = await contract.greet()
+        setGreetingValue(data)
+        console.log('data: ', data)
+      } catch (err) {
+        console.log('error: ', err)
+      }
   }
 }
 

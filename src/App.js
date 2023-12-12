@@ -1,6 +1,5 @@
 import "./styles/gradient.css";
 import Layout from "./components/Layout";
-import InteractiveBubble from "./InteractiveBubble";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -35,14 +34,17 @@ export default function Home() {
   }, []); // Empty dependency array ensures this runs once on mount
 
   return (
-    <div className="gradient-bg">
-      <div className="gradients-container">
-        <div className="g1"></div>
-        <div className="g2"></div>
-       
-        <div className="interactive"></div>
+    <div>
+      <div className="gradient-bg ">
+        <div className="gradients-container">
+          <div className="g1"></div>
+          <div className="g2"></div>
+
+          <div className="interactive"></div>
+        </div>
+         <Layout />
       </div>
-       <Layout />
     </div>
+    
   );
 }

@@ -1,5 +1,6 @@
 import "./styles/gradient.css";
 import Layout from "./components/Layout";
+import Footer from "./components/Footer";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
         </div>
          <Layout />
       </div>
+         <Footer />
     </div>
     
   );

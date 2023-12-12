@@ -9,6 +9,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
+  height: 100vh;
+  width: 100vh;
 }
 
 a {
@@ -36,20 +38,5 @@ body {
 .connectWalletBtn:hover {
   background: black !important;
   color: white !important;
-}
-
-/////////////////////////////////
-
-:root {
-  --color-bg1: rgb(108, 0, 162);
-  --color-bg2: rgb(0, 17, 82);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 200, 50, 50;
-  --color5: 180, 180, 50;
-  --color-interactive: 140, 100, 255;
-  --circle-size: 80%;
-  --blending: hard-light;
 }
 

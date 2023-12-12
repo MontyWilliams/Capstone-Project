@@ -4,11 +4,11 @@ import  '../styles/Home.css'
 
 function Home() {
   return (
-    <main className='main'>
-      <div className='container'>
-        <h1>Home</h1>
+      <div className="overflow-y-visible" >
+        <h1 className=" p-5">Home</h1>
+        <h1 className="p-5">Home2</h1>
+        <h1 className="p-5">Home3</h1>
       </div>
-    </main>
   )
 }
 

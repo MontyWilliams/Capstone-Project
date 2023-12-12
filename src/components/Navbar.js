@@ -16,12 +16,12 @@ function Navbar() {
   console.log(walletInstance)
   return (
     <div >
-      <div className='flex flex-row justify-between p-2'>
+      <div className='flex flex-row justify-between p-2 items-center'>
         <div className='flex-1 flex'>
-          <h1>Navbar</h1>
+          <img src="/LoyaltyTkn_animate.svg" alt="" width={150} height={100}/>
         </div>
         <div className='flex-row flex m-2 p-2'>
-          <div className='p-2'>
+          <div className='p-3'>
             <h2>{renderConnectionStatus()}</h2>
             {(connectionStatus === "connected") ? <h2>{walletInstance.walletId}</h2> : "please connect wallet" }
           </div>
@@ -30,7 +30,6 @@ function Navbar() {
             btnTitle="Login"
             className='connectWalletBtn '
         />
-
           </div>
         </div>
       </div>

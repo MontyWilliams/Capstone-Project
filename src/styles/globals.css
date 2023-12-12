@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html,
@@ -20,3 +24,17 @@ body {
   color: #e7e8e8;
   background: #070707;
 }
+
+.connectWalletBtn {
+  background: #734 !important;
+  border-radius: 10px !important;
+  padding: 0.5em !important;
+  font-size: 1.5em !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.connectWalletBtn:hover {
+  background: black !important;
+  color: white !important;
+}
+

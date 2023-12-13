@@ -17,7 +17,7 @@ function Layout({children}) {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hero" element={<Hero />} />
-        <Route path="/profiel" element={<Profile />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/campaigns" element={<Campaigns />} />
       </Routes>
     </div>

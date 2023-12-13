@@ -2,7 +2,7 @@ import React from 'react'
 
 function Campaigns() {
   return (
-    <div>
+    <div className='modal'>
       Campaigns
     </div>
   )

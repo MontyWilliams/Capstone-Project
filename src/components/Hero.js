@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div>
+    <div className='modal'>
       <h1>Hero</h1>
     </div>
   )

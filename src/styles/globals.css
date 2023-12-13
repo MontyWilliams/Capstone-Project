@@ -35,3 +35,19 @@ a {
   color: white !important;
 }
 
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  border: 5px solid white;
+  position: fixed;
+  top: 50%; /* Added */
+  left: 50%; /* Added */
+  transform: translate(-50%, -50%);
+  border-radius: 56x;
+
+}
+

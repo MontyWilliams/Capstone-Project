@@ -18,10 +18,8 @@ function Navbar() {
   return (
     <div >
       <div className='flex flex-row justify-between p-2 items-center'>
-        <div className='flex-1 flex'>
-          <img src="/LoyaltyTkn_animate.svg" alt="" width={150} height={100}/>
-        </div>
-        <div className="flex flex-1 flex-row">
+          <img className="hidden md:block" src="/LoyaltyTkn_animate.svg" alt="" width={150} height={100}/>
+        <div className="flex  flex-row">
           <Link to="/">
             <h1 className="text-green-600 lg:text-5xl p-5 md:text-2xl sm:text-xl"> Home </h1>
           </Link>
@@ -44,8 +42,9 @@ function Navbar() {
           <div>
         <ConnectWallet
             btnTitle="Login"
-            className='connectWalletBtn '
+            className='connectWalletBtn'
         />
+        <img  className="md:hidden " src="/LoyaltyTkn_animate.svg" alt="" width={150} height={100} />
           </div>
         </div>
       </div>

@@ -23,10 +23,16 @@ function Navbar() {
         </div>
         <div className="flex flex-1 flex-row">
           <Link to="/">
-            <h1 className="text-green-600 text-5xl p-5 "> Home </h1>
+            <h1 className="text-green-600 lg:text-5xl p-5 md:text-2xl sm:text-xl"> Home </h1>
           </Link>
           <Link to="/hero">
-            <h1 className=" text-green-600 text-5xl p-5 "> Hero </h1>
+            <h1 className=" text-green-600 lg:text-5xl p-5 md:text-2xl sm:text-xl"> Hero </h1>
+          </Link>
+          <Link to="/profile">
+            <h1 className=" text-green-600 lg:text-5xl p-5 md:text-2xl sm:text-xl"> profile </h1>
+          </Link>
+          <Link to="/campaigns">
+            <h1 className=" text-green-600 lg:text-5xl p-5 md:text-2xl sm:text-xl"> campaigns </h1>
           </Link>
           
         </div>

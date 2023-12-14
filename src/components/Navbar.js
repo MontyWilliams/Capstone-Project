@@ -21,16 +21,16 @@ function Navbar() {
           <img className="hidden md:block" src="/LoyaltyTkn_animate.svg" alt="" width={150} height={100}/>
         <div className="flex  flex-row">
           <Link to="/">
-            <h1 className="text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl"> Home </h1>
+            <h1 className="text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl navbutton"> Home </h1>
           </Link>
           <Link to="/hero">
-            <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl"> Hero </h1>
+            <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl navbutton"> Hero </h1>
           </Link>
           <Link to="/profile">
-            <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl"> profile </h1>
+            <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl navbutton"> profile </h1>
           </Link>
           <Link to="/campaigns">
-            <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl"> campaigns </h1>
+            <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl navbutton"> campaigns </h1>
           </Link>
           
         </div>

@@ -1,0 +1,52 @@
+{
+    "campaigns": [
+        {
+            "Id": 0,
+            "name": "Farmars Market Money Maker",
+            "description": "Earn extra points for every purchase at the local farmers market this holiday season.",
+            "rewardRate": 5,
+            "totalRewards": 10000,
+            "startDate": "Jan 1, 2023",
+            "endDate": "Feb 1, 2023",
+            "metadataCID": "QmPChd1uij7xrR3XNtMT7J1qkWvmA2d2Br3j7",
+            "isActive": true,
+            "img": "../../public/farmersMarket.png"
+        },
+        {
+            "Id": 1,
+            "name": "Car pool presents for parents",
+            "description": "This program accepts donations from enviorntal advocates in the community and rewards them to parents who car pool their chiildren to school",
+            "rewardRate": 10,
+            "totalRewards": 15000,
+            "startDate": "Mar 1, 2023",
+            "endDate": "Apr 1, 2023",
+            "metadataCID": "QmXKZuBQusx8XUZ28zJH7XY1A9vg5p4YknmPe",
+            "isActive": false,
+            "img": "../../public/carpooling.png"
+        },
+        {
+            "Id": 2,
+            "name": "Summer kids Baseball league",
+            "description": "Support the kids in your local community and earn increase your chances of winning rewards",
+            "rewardRate": 20,
+            "totalRewards": 20000,
+            "startDate": "May 1, 2023",
+            "endDate": "Jun 1, 2023",
+            "metadataCID": "QmZPbrXj8kH7JT7CkVxHP2PdWJkS9ZQLBqeJp",
+            "isActive": true,
+            "img": "../../public/baseball.png"
+        },
+        {
+            "Id": 3,
+            "name": "Back to School Special",
+            "description": "Earn rewards for every back-to-school purchase.",
+            "rewardRate": 15,
+            "totalRewards": 12000,
+            "startDate": "Jul 1, 2023", 
+            "endDate": "Aug 1, 2023",
+            "metadataCID": "QmaRXT7XuJNp9PVZM3MhPi5W4QQZ3zwRYkLmN",
+            "isActive": false,
+            "img": "../../public/back to school.png"
+        }
+    ]
+}

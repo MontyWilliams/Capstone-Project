@@ -16,22 +16,22 @@ function HomeSwiper () {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
       autoplay={{
-        delay: 2500,
+        delay: 10500,
         disableOnInteraction: false,
       }}
-      pagination={{
-          clickable: true,
-        }}
-        navigation={true}
+      // pagination={{
+      //     clickable: true,
+      //   }}
+        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
     >
       {campaignData.campaigns.map((campaign) => (
         <SwiperSlide key={campaign.Id}>
           <div>
-            <h2>{campaign.name}</h2>
+            <h2 className='text-3xl'>{campaign.name}</h2>
             <p>{campaign.description}</p>
-            <img src={campaign.img} alt={campaign.name} />
+            {/* <img src={campaign.img} alt={campaign.name} className='homeSwipeImg'/> */}
             {/* Include other campaign details here as needed */}
           </div>
         </SwiperSlide>

@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 function Footer() {
   return (
-    <div className='absolute bottom-0 w-full  h-[10vh] flex flex-row items-center justify-center bg-gradient-to-t from-slate-800 to-transparent'>
+    <div className='absolute h-auto bottom-0 w-full flex flex-row items-center justify-center bg-gradient-to-t from-slate-800 to-transparent'>
       <div className="flex flex-col items-center justify-items-center" >
         <h1>A Holberton Demo Day project</h1>
         <div className='flex row'>

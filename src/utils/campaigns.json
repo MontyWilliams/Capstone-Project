@@ -2,7 +2,7 @@
     "campaigns": [
         {
             "Id": 0,
-            "name": "Farmars Market Money Maker",
+            "name": "Farmers Market Money Maker",
             "description": "Earn extra points for every purchase at the local farmers market this holiday season.",
             "rewardRate": 5,
             "totalRewards": 10000,
@@ -15,7 +15,7 @@
         {
             "Id": 1,
             "name": "Car pool presents for parents",
-            "description": "This program accepts donations from enviorntal advocates in the community and rewards them to parents who car pool their chiildren to school",
+            "description": "This program accepts donations from enviorntal advocates in the communityand rewards them to parents who car pool their chiildren to school",
             "rewardRate": 10,
             "totalRewards": 15000,
             "startDate": "Mar 1, 2023",

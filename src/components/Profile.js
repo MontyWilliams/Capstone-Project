@@ -1,9 +1,10 @@
 import React from 'react'
+import campaigns from '../utils/campaigns.json'
 
 function Profile() {
   return (
     <div className='modal'>
-      <h1>Profile</h1>
+      <h1>User </h1>
     </div>
   )
 }

@@ -1,15 +1,21 @@
 import React from 'react'
 import  '../styles/Home.css'
-
+import  '../styles/globals.css'
+import HomeSwiper from './HomeSwiper'
 
 
 function Home() {
   return (
-      <div className="modal" >
-        <div className="card">
-          <h1 className=" p-5">Home</h1>
-          <h1 className="p-5">Home2</h1>
-          <h1 className="p-5">Home3</h1>
+      <div className="" >
+        <div className=" homePage">
+          <div className="flex flex-col homeBtn">
+            <h1 className='text-6xl'>Start your campaign Now!</h1>
+            <button className='pt-3 navbutton '>Start Campaign!</button>
+          </div>
+        </div>
+        <div className="">
+          <HomeSwiper />
+          
         </div>
       </div>
   )

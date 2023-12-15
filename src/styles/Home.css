@@ -159,3 +159,8 @@
 .connectWalletBtn {
   background: whitez
 }
+
+.homeBtn {
+  align-items: flex-start;
+  padding-top: 10px;
+}

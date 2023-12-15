@@ -97,3 +97,13 @@ a {
   background-radius: 50%;
   opacity: 80%;
 }
+
+.homePage {
+  top: 50%;
+  right: 60%;
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}

@@ -164,3 +164,45 @@
   align-items: flex-start;
 
 }
+
+.profileCard {
+  background-color: #131313;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 440px;
+  overflow: none;
+  border: none;
+}
+
+.profileCard-text {
+  padding: 1rem;
+}
+
+.profileCard img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 12px;
+  border: none;
+}
+
+.profileCard:hover,
+.profileCard:focus,
+.profileCard:active {
+  background-color: #272c34;
+  opacity: 80%;
+}
+
+.profileCard h2 {
+  margin: 0 0 0.75rem 0;
+}
+
+.profileCard p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}

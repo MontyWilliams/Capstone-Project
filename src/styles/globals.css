@@ -121,3 +121,136 @@ a {
   left: 60%;
   position: relative;
 }
+.campaignBtn {
+  /* background: #734 !important; */
+  border-radius: 10px !important;
+  padding: 0.5em !important;
+  font-size: 1.2em !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.campaignBtn:hover {
+  background: green !important;
+  color: white !important;
+  transition: all .2s ease-in-out !important;
+
+}
+
+.CampaignModal {
+  display: flex;
+  width: 70%;
+  height: 50%;
+  border: none;
+  position: fixed;
+  top: 60%; /* Added */
+  left: 50%; /* Added */
+  transform: translate(-50%, -50%);
+  border-radius: 56x;
+  background-color: rgba(19, 19, 19, 0.5);
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.CampaignModal-text {
+  padding: 1rem;
+}
+
+.CampaignModal img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 12px;
+  border: none;
+}
+
+.CampaignModal:hover,
+.CampaignModal:focus,
+.CampaignModal:active {
+  background-color: rgba(39, 44, 52, 0.3);
+  opacity: 80%;
+}
+
+.CampaignModal h2 {
+  margin: 0 0 0.75rem 0;
+}
+
+.CampaignModal p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.CreateCampaignModal {
+  display: flex;
+  border: none;
+  /* width: 50vw; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 56x;
+  /* background-color: rgba(19, 19, 19, 0.5); */
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.profileModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 50%;
+  border: none;
+  position: fixed;
+  top: 50%; /* Added */
+  left: 50%; /* Added */
+  transform: translate(-50%, -50%);
+  border-radius: 56x;
+  background-color: rgba(19, 19, 19, 0.5);
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.profileModal-text {
+  padding: 1rem;
+}
+
+.profileModal img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 12px;
+  border: none;
+}
+
+.profileModal:hover,
+.profileModal:focus,
+.profileModal:active {
+  background-color: rgba(39, 44, 52, 0.3);
+  opacity: 80%;
+}
+
+.profileModal h2 {
+  margin: 0 0 0.75rem 0;
+}
+
+.profileModal p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 766px) {
+  .profileModal {
+    height: 50%;
+  }
+}

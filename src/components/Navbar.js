@@ -23,9 +23,9 @@ function Navbar() {
           <Link to="/">
             <h1 className="text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl navbutton"> Home </h1>
           </Link>
-          <Link to="/hero">
+          {/* <Link to="/hero">
             <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl navbutton"> Hero </h1>
-          </Link>
+          </Link> */}
           <Link to="/profile">
             <h1 className=" text-green-600 xl:text-5xl lg:text-4xl p-5 md:text-2xl sm:text-xl navbutton"> profile </h1>
           </Link>

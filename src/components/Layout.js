@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Hero from './Hero'
+// import Hero from './Hero'
 import Home from './Home'
 import Profile from './Profile'
 import Campaigns from './Campaigns'
 import Footer from './Footer'
+import Farmers from './Farmers'
+import CreateCampaign from './CreateCampaign'
 
 import '../styles/gradient.css'
 
@@ -22,9 +24,11 @@ function Layout({children}) {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/hero" element={<Hero />} />
+          {/* <Route path="/hero" element={<Hero />} /> */}
           <Route path="/profile" element={<Profile />} />
           <Route path="/campaigns" element={<Campaigns />} />
+          <Route path="/farmers" element={<Farmers />} />
+          <Route path="/createCampaign" element={<CreateCampaign />} />
         </Routes>
         <Footer />
       </div>

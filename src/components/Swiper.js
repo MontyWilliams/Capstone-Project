@@ -1,6 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import '../styles/globals.css'
+import campaignData from '../utils/campaigns.json'
+
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -17,24 +19,36 @@ function SwiperComp () {
         delay: 2500,
         disableOnInteraction: false,
       }}
-      pagination={{
-          clickable: true,
-        }}
-        navigation={true}
+      // pagination={{
+      //     clickable: true,
+      //   }}
+      //   navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper card"
+        className="mySwiper profileCard"
     >
       <SwiperSlide>
-        <img src="/baseball.png" alt="baseball"/>
+        <div className="flex justify-center items-center">
+          <img src="/baseball.png" alt="baseball"/>
+          <p className='p-4 '>"Summer kids Baseball league"</p>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/farmersMarket.png" alt="baseball"/>
+        <div className="flex justify-center items-center">
+          <img src="/farmersMarket.png" alt="baseball"/>
+          <p className='p-4 '>"Farmers Market Money Maker"</p>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/back to school.png" alt="baseball"/>
+        <div className="flex justify-center items-center">
+          <img src="/back to school.png" alt="baseball"/>
+          <p className='p-4 '>"Back to School Special"</p>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/carpooling.png" alt="baseball"/>
+        <div className="flex justify-center items-center">
+          <img src="/carpooling.png" alt="baseball"/>
+          <p className='p-4 '>"Car-pool presents for parents"</p>
+        </div>
       </SwiperSlide>
       
     </Swiper>
